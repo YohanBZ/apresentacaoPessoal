@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+  --base:#efeadd;
+  --text:#264f33;
+  --secundaria:#c6d9bd;
+  --base-2:#b0aca2;
+  --base-3:#706e67;
+  --base-4:#e9eef0;
+}
+
+body {
+  background: var(--base);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
