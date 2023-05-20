@@ -9,15 +9,14 @@
   --base:#efeadd;
   --text:#264f33;
   --secundaria:#c6d9bd;
+  --base-1: #d6d1c6 ;
   --base-2:#b0aca2;
   --base-3:#706e67;
   --base-4:#e9eef0;
 }
 
 body {
-  /* background: var(--base); */
-  background: rgb(239,234,221);
-  background: linear-gradient(180deg, rgba(239,234,221,1) 50%, rgba(214,209,198,1) 75%);
+  background: var(--base);
   width: 100%;
   display: flex;
   flex-direction: column;

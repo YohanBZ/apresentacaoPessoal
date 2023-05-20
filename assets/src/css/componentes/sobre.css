@@ -1,0 +1,128 @@
+.sobre{
+  background-color: var(--base-1);
+  max-width: 90rem;
+  max-height: 37rem;
+  width: 95%;
+  padding: 0 0rem 3rem;
+  margin: 0 4.37rem;
+  gap: 80px;
+}
+
+.border{
+  max-width: 90rem;
+  max-height: 37rem;
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 3.5rem;
+}
+
+.info-sobre{
+  background: var(--base-2);
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  max-height: 600px;
+  padding: 2rem;
+  border-radius: 4px;
+}
+
+.info-sobre > h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 3rem;
+  color: var(--text);
+  margin: 1rem 1rem 0;
+}
+
+.info-sobre > p {
+  font-family: 'Merriweather', serif;
+  color: var(--text);
+  padding: 0 1rem 1rem;
+}
+
+
+.imagem-perfil{
+  background-color: var(--base-3);
+  width: 272px;
+  height: 350px;
+  border: 10px solid white;
+  border-bottom: 70px solid white;
+}
+
+.border-right::after{
+  content:" ";
+  display: inline-block;
+  width: 0.2rem;
+  height: calc(100vh - 20px);
+  max-height: 700px;
+  margin-top: 10rem;
+  background: rgba(38, 79, 51, 0.9);
+  position: relative;
+}
+
+.border-bottom::after{
+  content:" ";
+  display: inline-block;
+  width: 100%;
+  height: 0.2rem;
+  background: rgba(38, 79, 51, 0.9);
+  position: relative;
+}
+
+/* CSS media query de sobre */
+
+@media screen and (max-width: 1020px ){
+  .info-sobre{
+    padding: 1rem;
+  }
+  
+  .info-sobre > h3 {
+    font-size: 2rem;
+    margin:  1rem;
+  }
+  
+  .info-sobre > p {
+    font-size: 0.9rem;
+    padding: 0 1rem 1rem;
+  }
+  
+  
+  .imagem-perfil{
+    width: 242px;
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 781px ){
+  .border{
+    flex-direction: column-reverse;
+    padding-top: 2rem;
+  }
+
+  .info-sobre{
+    width: 90% ;
+    align-items: flex-start;
+  }
+  
+  .info-sobre > h3 {
+    font-size: 2rem;
+    margin:  1rem;
+  }
+  
+  .info-sobre > p {
+    font-size: 0.9rem;
+    padding: 0 1rem 1rem;
+  }
+  
+  
+  .imagem-perfil{
+    width: 202px;
+    height: 280px;
+    border-bottom: 1rem solid white;
+  }
+
+  .border-right::after{
+    display: none;
+  }
+}
