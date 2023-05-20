@@ -15,7 +15,9 @@
 }
 
 body {
-  background: var(--base);
+  /* background: var(--base); */
+  background: rgb(239,234,221);
+  background: linear-gradient(180deg, rgba(239,234,221,1) 50%, rgba(214,209,198,1) 75%);
   width: 100%;
   display: flex;
   flex-direction: column;

@@ -2,11 +2,11 @@
 header {
   width: 100%;
   max-width: 1440px;
-  padding: 20px 50px 5px; 
+  padding: 20px 50px 0px; 
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 3px solid var(--text);
+  /* border-bottom: 3px solid var(--text); */
 }
 
 nav {
@@ -58,7 +58,4 @@ a:hover{
     gap: 20px;
   }
 
-  a{
-    /* font-size: 14px; */
-  }
 }
