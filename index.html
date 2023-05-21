@@ -130,9 +130,52 @@
           </li>
         </ul>
       </section>
-      <section class="contato" id="contato">
-        <h3>Contato</h3>
-        <form action=""></form>
+      <section class="contato" aria-label="formulario">
+        <div>
+          <h3>Entre em Contato</h3>
+        </div>
+        <form class="form" action="" method="">
+          <fieldset>
+            <label for="nome">Nome:</label>
+            <input
+              type="text"
+              id="nome"
+              name="nome"
+              placeholder="Seu Nome"
+              required
+            />
+          </fieldset>
+          <fieldset>
+            <label for="telefone">Telefone:</label>
+            <input
+              type="text"
+              id="telefone"
+              name="telefone"
+              placeholder="(41) 9999-9999"
+            />
+          </fieldset>
+          <fieldset>
+            <label for="Email">Email:</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="contato@email.com"
+              required
+            />
+          </fieldset>
+          <fieldset>
+            <label for="mensagem">Mensagem:</label>
+            <textarea
+              rows="5"
+              type="text"
+              id="mensagem"
+              name="mensagem"
+              placeholder="O que você precisa?"
+            ></textarea>
+          </fieldset>
+          <button class="button">Enviar Mensagem</button>
+        </form>
       </section>
     </main>
 

@@ -1,0 +1,91 @@
+.contato{
+  background: linear-gradient(180deg, rgba(239,234,221,1) 50%, rgba(214,209,198,1) 75%);
+  max-width: 90rem;
+  max-height: 37rem;
+  width: 95%;
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem 3rem;
+  margin: 0 4.37rem;
+  border: 3px solid var(--text);
+}
+
+
+.contato > div {
+  width: 400px;
+  height: 90%;
+  border-right: 3px solid var(--text);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 1rem 1rem 0;
+}
+
+.contato > div > h3 {
+  font-family: 'Merriweather', serif;
+  flex-wrap: wrap;
+  font-size: 4rem;
+  color: var(--text);
+  margin-bottom: 5rem;
+}
+
+form{
+  width: 50%;
+  background: var(--base-1);
+  padding: 2rem;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 3px;
+  gap: 3px;
+}
+
+fieldset{
+  border: none;
+  padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+label{
+  display: block;
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+  color: var(--text);
+}
+
+input{
+  width: 100%;
+  padding: 0.3rem;
+  border: none;
+  border-bottom: 2px solid var(--text);
+  background-color: var(--base-1);
+}
+
+textarea{
+  width: 100%;
+  padding: 0.3rem;
+  border: none;
+  border-bottom: 2px solid var(--text);
+  background-color: var(--base-1);
+}
+
+.button {
+  width: 40%;
+  padding: 0.5rem;
+  border-radius: 3px;
+  border: 1px solid var(--text);
+  background: var(--secundaria);
+  font-family: 'Merriweather', serif;
+  font-size: 0.8rem;
+  color: var(--text);
+}
+
+.button:hover{
+  color: var(--text);
+  background: rgb(198,217,189);
+  background: linear-gradient(180deg, rgba(198,217,189,1) 75%, rgba(38,79,51,1) 100%);
+}
