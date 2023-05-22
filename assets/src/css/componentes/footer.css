@@ -1,0 +1,32 @@
+footer {
+  width: 100%;
+  height: 120px;
+  max-width: 1440px;
+  padding: 20px 50px 0px; 
+  background-color: var(--base-2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 3px solid var(--text);
+}
+
+footer > img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid var(--text);
+  background-color: var(--base-3);
+}
+
+ul {
+  display: flex;
+  align-items: center; 
+}
+
+li{
+  list-style: none;
+}
+
+li:hover{
+  transform:scale(1.1)
+}
