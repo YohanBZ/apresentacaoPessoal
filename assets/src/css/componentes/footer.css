@@ -7,14 +7,14 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-top: 3px solid var(--text);
+  border-top: 3px solid var(--primaria);
 }
 
 footer > img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  border: 2px solid var(--text);
+  border: 3px solid var(--primaria);
   background-color: var(--base-3);
 }
 
@@ -29,4 +29,12 @@ li{
 
 li:hover{
   transform:scale(1.1)
+}
+
+/* CSS media query do footer  */
+
+@media screen and (max-width: 500px ){
+  footer{
+    padding: 10px; 
+  }
 }

@@ -9,14 +9,14 @@
   align-items: center;
   padding: 3rem 3rem;
   margin: 0 4.37rem;
-  border: 3px solid var(--text);
+  border: 3px solid var(--primaria);
 }
 
 
 .contato > div {
   width: 400px;
   height: 90%;
-  border-right: 3px solid var(--text);
+  border-right: 3px solid var(--primaria);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -28,7 +28,7 @@
   font-family: 'Merriweather', serif;
   flex-wrap: wrap;
   font-size: 4rem;
-  color: var(--text);
+  color: var(--primaria);
   margin-bottom: 5rem;
 }
 
@@ -54,14 +54,14 @@ label{
   display: block;
   font-family: 'Merriweather', serif;
   font-size: 1rem;
-  color: var(--text);
+  color: var(--primaria);
 }
 
 input{
   width: 100%;
   padding: 0.3rem;
   border: none;
-  border-bottom: 2px solid var(--text);
+  border-bottom: 2px solid var(--primaria);
   background-color: var(--base-1);
 }
 
@@ -69,15 +69,15 @@ textarea{
   width: 100%;
   padding: 0.3rem;
   border: none;
-  border-bottom: 2px solid var(--text);
+  border-bottom: 2px solid var(--primaria);
   background-color: var(--base-1);
 }
 
 .button {
-  width: 40%;
+  width: fit-content;
   padding: 0.5rem;
   border-radius: 3px;
-  border: 1px solid var(--text);
+  border: 1px solid var(--primaria);
   background: var(--secundaria);
   font-family: 'Merriweather', serif;
   font-size: 0.8rem;
@@ -85,7 +85,44 @@ textarea{
 }
 
 .button:hover{
-  color: var(--text);
-  background: rgb(198,217,189);
-  background: linear-gradient(180deg, rgba(198,217,189,1) 75%, rgba(38,79,51,1) 100%);
+  color: var(--base);
+  background: rgb(149,176,136);
+  background: linear-gradient(180deg, rgba(149,176,136,1) 29%, rgba(103,157,120,1) 100%);
+}
+
+
+
+/* CSS media query do contato  */
+
+@media screen and (max-width: 801px ){
+  .contato{
+    padding: 1rem;
+  }
+  .contato > div {
+    width: 40%;
+  }
+  .contato > div > h3{
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 481px ){
+  .contato{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .contato > div {
+    border: none;
+    width: 100%;
+  }
+
+  .contato > div > h3 {
+    margin: 5px;
+  }
+
+  form{
+    width: 100%;
+    padding: 1rem;
+  }
 }

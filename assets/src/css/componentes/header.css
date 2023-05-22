@@ -20,7 +20,7 @@ a{
   text-decoration: none;
   font-family: 'Merriweather', serif;
   font-weight: 700;
-  color: var(--text);
+  color: var(--primaria);
   padding: 10px;
   text-shadow: 1px 1px 3px var(--secundaria);
   /* border-bottom: 1px solid var(--text); */
@@ -30,7 +30,7 @@ a{
 a:hover{
   transform: scale(1.0);
   color: var(--secundaria);
-  text-shadow: 1px 1px 3px var(--text);
+  text-shadow: 1px 1px 3px var(--primaria);
 }
 
 /* CSS media query do header  */

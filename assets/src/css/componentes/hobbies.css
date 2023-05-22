@@ -14,7 +14,7 @@
 .hobbies > h3 {
   font-family: 'Merriweather', serif;
   font-size: 3rem;
-  color: var(--text);
+  color: var(--primaria);
   margin: 1rem 1rem 0;
 }
 
@@ -40,8 +40,8 @@
   background-color: #EAF0DE;
   padding: 5px;
   border-radius: .5rem;
-  border-top: 1px solid var(--text);
-  border-left: 1px solid var(--text);
+  border-top: 1px solid var(--primaria);
+  border-left: 1px solid var(--primaria);
   backdrop-filter: blur(5px);
   box-shadow: 5px 5px 15px rgba(44, 44, 44, 0.5);
   overflow: hidden;
