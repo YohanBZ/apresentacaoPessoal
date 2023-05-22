@@ -1,3 +1,5 @@
+
+/* css da main */
 main {
   width: 100%;
   display: flex;
@@ -5,6 +7,7 @@ main {
   align-items: center;
 }
 
+/* css do home da página - logo e nome  */
 .home{
   background: linear-gradient(180deg, rgba(239,234,221,1) 50%, rgba(214,209,198,1) 75%);
   max-width: 90rem;
@@ -21,7 +24,7 @@ main {
 }
 
 .logo-yohan{
-  font-size: 32rem;
+  font-size: 25rem;
   font-family: 'Black Ops One', cursive;
   padding: 30px;
   background-image: url(../../../img/95e8100b03527843014cef1685412790.jpg) ;
@@ -36,16 +39,16 @@ main {
 .nome-autor{
   display: flex;
   flex-direction: row;
-  height: 30rem;
+  height: 23rem;
   align-items: flex-end;
 }
 
 .autor{
   color: var(--text);
   font-family: 'Merriweather', serif;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight:bold;
-  width: 5.62rem;
+  width: 5rem;
   align-items: flex-start;
   border-bottom: 3px solid var(--text);
   margin: 5px 2px;
@@ -54,46 +57,50 @@ main {
 .quadrado::before {
   content:" ";
   display: inline-block;
-  width: 4.69rem;
-  height: 4.69rem;
+  width: 3.50rem;
+  height: 3.50rem;
   background: rgba(38, 79, 51, 0.9);
-  margin-left: 13.75rem;
+  margin-left: 12rem;
   position: relative;
 }
 
-/* CSS media query da home */
 
+/* CSS media query  801px da home */
 @media screen and (max-width: 801px ){
   .logo-yohan{
-    font-size: 28rem;
+    font-size: 20rem;
   }
   .autor{
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin-bottom: 2.5rem;
-    width: 5rem;
+    width: 4rem;
   }
   .quadrado::before{
-    width: 4.30rem;
-    height: 4.30rem;
-    margin-left: 12.75rem;
-    margin-bottom: 2rem;
+    width: 3rem;
+    height: 3rem;
+    margin-left: 9.50rem;
+    margin-bottom: 2rem; 
   }
 }
 
-@media screen and (max-width: 601px ){
+/* CSS media query  400px da home */
+@media screen and (max-width: 400px ){
+  .home{
+    margin: 0;
+  }
   .logo-yohan{
-    font-size: 23rem;
+    font-size: 18rem;
   }
   .autor{
-    font-size: 0.80rem;
-    margin-bottom: 4.75rem;
+    font-size: 0.70rem;
+    margin-bottom: 4rem;
     width: 3rem;
   }
   .quadrado::before{
-    width: 3.60rem;
-    height: 3.60rem;
-    margin-left: 9.55rem;
-    margin-bottom: 4rem;
+    width: 3rem;
+    height: 3rem;
+    margin-left: 8.75rem;
+    margin-bottom: 3.2rem;
   }
 }
 
