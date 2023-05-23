@@ -9,6 +9,6 @@
  <h1>📁Acesso ao projeto</h1>
  <p>Arquivos do projeto: (https://github.com/YohanBZ/apresentacaoPessoal).</p>
  <p>Página do projeto: (https://yohanbz.github.io/apresentacaoPessoal/).</p>
- <img src=![Animação site](https://github.com/YohanBZ/apresentacaoPessoal/assets/98111590/4b1b259e-a82b-4239-bb96-f0ee84ea4e5a) alt="Descrição do GIF">
+ <img src=![Animação](https://github.com/YohanBZ/apresentacaoPessoal/assets/98111590/4b1b259e-a82b-4239-bb96-f0ee84ea4e5a) alt="Descrição do GIF">
 
 
