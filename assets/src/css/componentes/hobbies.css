@@ -46,3 +46,11 @@
   box-shadow: 5px 5px 15px rgba(44, 44, 44, 0.5);
   overflow: hidden;
 }
+
+/* CSS media query do hobbies  */
+
+@media screen and (max-width: 801px ){
+  .hobbies{
+    padding: 0;
+  }
+}

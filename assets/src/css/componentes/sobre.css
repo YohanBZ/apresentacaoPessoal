@@ -3,7 +3,7 @@
   max-width: 90rem;
   height: 100vh;
   width: 95%;
-  padding: 0 0rem 3rem;
+  padding-bottom:3rem;
   gap: 80px;
 }
 
@@ -21,7 +21,6 @@
   display: flex;
   gap: 30px;
   width: 80%; 
-  /* max-height: 600px; */
   padding: 3rem;
   border-radius: 4px;
 }
@@ -103,6 +102,9 @@
 }  
 
 @media screen and (max-width: 785px ){
+  .sobre {
+    padding: 0;
+  }
   .border {
     padding: 1rem;
   }
