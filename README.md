@@ -24,8 +24,7 @@
  <p>Arquivos do projeto: (https://github.com/YohanBZ/apresentacaoPessoal).</p>
  <p>Página do projeto: (https://yohanbz.github.io/apresentacaoPessoal/).</p>
  
-
-<!-- <img width="947" alt="Screenshot_35" src="https://github.com/YohanBZ/apresentacaoPessoal/assets/98111590/89ddfc4f-36d5-4424-8e4e-81b35c8f0d64"> -->
+<img width="875" alt="Screenshot_108" src="https://github.com/YohanBZ/apresentacaoPessoal/assets/98111590/4a8b1a63-7fd9-4255-9ac7-14b8aae7d271">
 
 
 
